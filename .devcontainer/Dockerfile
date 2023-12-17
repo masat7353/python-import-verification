@@ -1,1 +1,2 @@
-FROM python:3.12.0
+FROM python:3.10.0
+RUN python -m pip install pytest
